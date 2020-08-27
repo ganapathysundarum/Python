@@ -13,7 +13,8 @@ def main():
     # Print the result code from the request, should be 200 OK
     print("Result code: {0}".format(result.status))
 
-    # print the returned data headers
+    # print the returned data h
+    # eaders
     print("Headers: ----------------------")
     print(result.getheaders())
 
